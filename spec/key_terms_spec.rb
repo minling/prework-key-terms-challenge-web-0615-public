@@ -1,6 +1,6 @@
 describe "Key Terms Challenge" do
   it 'is a text-only way of browsing and interacting with your computer' do
-    your_answer = __ # replace the __ with your answers in "quotes"
+    your_answer = __
     expect(your_answer).to satisfy {|s| answer_1.include?(s.downcase) }
   end
 
@@ -24,7 +24,7 @@ describe "Key Terms Challenge" do
     expect(your_answer).to satisfy {|s| answer_5.include?(s.downcase) }
   end
 
-  it 'is your computers address on the internet' do 
+  it "is your computer's address on the internet" do 
     your_answer = __
     expect(your_answer).to satisfy {|s| answer_6.include?(s.downcase) }
   end
@@ -44,7 +44,7 @@ describe "Key Terms Challenge" do
     expect(your_answer).to satisfy {|s| answer_9.include?(s.downcase) }
   end
 
-  it 'is the (secure) way data is moved around the internet' do 
+  it 'is the secure way data is moved around the internet' do 
     your_answer = __
     expect(your_answer).to satisfy {|s| answer_10.include?(s.downcase) }
   end
@@ -69,12 +69,12 @@ describe "Key Terms Challenge" do
     expect(your_answer).to satisfy {|s| answer_14.include?(s.downcase) }
   end
 
-  it 'is the language to build a websites content' do 
+  it "is the language to build a website's content" do 
     your_answer = __
     expect(your_answer).to satisfy {|s| answer_15.include?(s.downcase) }
   end
 
-  it 'is the language to style a websites content' do 
+  it "is the language to style a website's content" do 
     your_answer = __
     expect(your_answer).to satisfy {|s| answer_16.include?(s.downcase) }
   end
